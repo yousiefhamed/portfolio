@@ -38,13 +38,11 @@ body {
 }
 
 #headerSection header {
-  height: 95%;
+  height: 90%;
 }
 
 header h1 {
   color: #004374;
-  
-  animation: rotate 8s linear 0s infinite forwards;
   
   font-size: 2em;
   font-family: 'Caveat', cursive;
@@ -66,28 +64,25 @@ header h1 span {
   padding: 0px 5px;
 }
 
-header .profile {
-  filter: saturate(200%) contrast(150%) drop-shadow(10px 15px 10px black);
-  animation: rotate 5s linear 0s infinite forwards;
+header p {
+  color: #3A7394;
   
-  width: auto;
-  height: fit-content;
-  max-height: 50%;
-
-  border-radius: 50%;
+  font-size: 1.5em;
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  filter: drop-shadow(10px 15px 10px black);
 }
 
-@keyframes rotate {
-	from {
-		transform: rotate(0deg)
-		           translate(-1em)
-		           rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg)
-		           translate(-1em) 
-		           rotate(-360deg);
-	}
+header p span {
+  color: #002445;
+}
+
+header .profile {
+  filter: saturate(150%) contrast(150%) drop-shadow(10px 15px 10px black);
+  
+  width: fit-content;
+  height: fit-content;
+  max-height: 50%;
 }
 
 header address, #footerSection address {
@@ -142,6 +137,8 @@ header address img, #footerSection address img {
 }
 
 main {
+  font-size: 1.5em;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,7 +147,7 @@ main {
   margin: 10px;
 }
 
-#aboutSec, #servicesSec, #projectsSec, #contactSec {
+#aboutSec, #servicesSec, #skillsSec, #projectsSec, #contactSec {
   background-color: #F0FDFF;
   color: #004374;
   
@@ -159,14 +156,14 @@ main {
   
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   
   border-bottom: 3px solid #004955;
   padding: 50px 0px;
 }
 
-#aboutSec h2, #servicesSec h2, #projectsSec h2, #contactSec h2 {
+#aboutSec h2, #servicesSec h2, #skillsSec h2, #projectsSec h2, #contactSec h2 {
   color: #00D9FF;
   
   -webkit-text-stroke: 1px #004955;
@@ -174,40 +171,120 @@ main {
   margin-bottom: 3%;
 }
 
-#aboutSec p, #projectsSec p, #contactSec p {
+#aboutSec p, #aboutSec a, #projectsSec p, #contactSec p {
+  text-align: center;
+  text-decoration: none;
+  
   width: 100%;
   
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
-#servicesSec div {
+#aboutSec a {
+  background-color: darkolivegreen;
+  color: greenyellow;
+  
+  text-align: center;
+  
+  width: auto;
+  
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+#aboutSec a img {
+  width: auto;
+  height: 30px;
+  
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#servicesSec div, #skillsSec div {
   width: 100%;
   
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
 }
 
-#servicesSec figure {
+#servicesSec figure, #skillsSec figure {
+  background-color: #C6E3FF;
+  
   text-align: center;
   
   display: block;
   
   width: 100px;
+  
+  border-radius: 20px;
+  padding: 5%;
 }
 
-#servicesSec figure img {
+#servicesSec figure img, #skillsSec figure img {
   display: block;
   
   width: 100%;
 }
 
-#servicesSec figure figcaption {
+#servicesSec figure figcaption, #skillsSec figure figcaption {
   width: 100%;
+}
+
+#servicesSec figure {
+  width: 80%;
+  
+  margin-bottom: 50px;
+}
+
+#servicesSec figure img {
+  border: 2px solid #002445;
+  border-radius: 20px;
+}
+
+#servicesSec figure figcaption .order {
+  background-color: #00305D;
+  color: #e9f4ff;
+  
+  display: block;
+  
+  width: auto;
+  
+  border: 3px solid #00305D;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#servicesSec figure figcaption .price {
+  color: darkred;
+  
+  font-size: 1.25em;
+  
+  display: block;
+  
+  width: auto;
+  
+  border-top: 1px solid #00305D;
+  margin-top: 10px;
+}
+
+#contactSec p {
+  font-size: 1.25em;
+  
+  text-align: center;
+  
+  justify-content: center;
 }
 
 #contactSec address {
@@ -224,9 +301,20 @@ main {
 
 #contactSec address img {
   width: auto;
-  height: 50px;
+  height: 30px;
   
   margin: 3px 1%;
+}
+
+#contactSec .specialSpan {
+  background-color: white;
+  color: darkblue;
+  
+  font-size: 1em;
+}
+
+#contactSec .specialSpan span {
+  color: red;
 }
 
 #footerSection {
