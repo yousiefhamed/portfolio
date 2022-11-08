@@ -215,7 +215,7 @@ main {
 }
 
 #servicesSec div {
-  flex: 1 300px;
+  flex-shrink: 300px;
 }
 
 #servicesSec figure, #skillsSec figure {
