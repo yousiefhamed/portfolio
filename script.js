@@ -24,3 +24,8 @@ for (let orderElement of orderElements) {
     document.location = 'https://wa.me/qr/H4QUJTE4EQDOE1';
   })
 }
+
+let rocket = document.getElementById('rocket');
+rocket.addEventListener('click', () => {
+  document.getElementById('headerSection').scrollIntoView({ behavior: 'smooth'});
+})
