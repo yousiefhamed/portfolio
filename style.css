@@ -225,10 +225,11 @@ main {
   
   border-radius: 20px;
   padding: 5%;
+  margin: 1%;
 }
 
 #servicesSec div figure {
-  flex: 300px;
+  flex: 250px;
 }
 
 #servicesSec figure img, #skillsSec figure img {
