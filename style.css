@@ -214,6 +214,10 @@ main {
   align-items: stretch;
 }
 
+#servicesSec div {
+  flex: 1 300px;
+}
+
 #servicesSec figure, #skillsSec figure {
   background-color: #C6E3FF;
   
