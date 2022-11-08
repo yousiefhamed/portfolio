@@ -214,10 +214,6 @@ main {
   align-items: stretch;
 }
 
-#servicesSec div {
-  flex-shrink: 300px;
-}
-
 #servicesSec figure, #skillsSec figure {
   background-color: #C6E3FF;
   
@@ -229,6 +225,10 @@ main {
   
   border-radius: 20px;
   padding: 5%;
+}
+
+#servicesSec div figure {
+  flex: 300px;
 }
 
 #servicesSec figure img, #skillsSec figure img {
