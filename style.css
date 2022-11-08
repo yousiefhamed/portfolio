@@ -1,7 +1,7 @@
 *{
   background-color: transparent;
   
-  border: none;
+  border: 1px solid;
   padding: 0px;
   margin: 0px;
 }
@@ -20,10 +20,11 @@ body {
   margin-top: 50px;
 }
 
-#headerSection, #headerSection header {
+#headerSection, header {
   background-color: #D0F8FF;
   
   width: 100%;
+  height: 100%;
   
   display: flex;
   flex-wrap: wrap;
@@ -32,8 +33,6 @@ body {
 }
 
 #headerSection {
-  height: 100%;
-  
   border-bottom: 3px solid #004955;
 }
 
@@ -54,6 +53,8 @@ header h1 {
   
   width: 100%;
   height: auto;
+  
+  margin-bottom: 10px;
 }
 
 header h1 span {
@@ -101,7 +102,7 @@ header address img, #footerSection address img {
   width: auto;
   height: 30px;
   
-  margin: 0px 2%;
+  margin: 5px 2%;
 }
 
 #headerSection nav {
@@ -176,11 +177,6 @@ main {
   text-decoration: none;
   
   width: 100%;
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 #aboutSec a {
