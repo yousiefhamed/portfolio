@@ -16,7 +16,7 @@ I am a creative and independent frontend developer with a strong background in U
 
 [The landing page was built using HTML and CSS and includes animations and responsive design.]
 
-### Personal Portfolio on Blogger
+### Freelance Blogger Website
 
 [The portfolio was converted from PSD to a Blogger template with a focus on internal SEO, achieving a high score on an SEO checker.]
 
