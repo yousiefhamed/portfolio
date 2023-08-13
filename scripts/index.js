@@ -46,6 +46,11 @@ const data = [{
                 color: '#000',
             },
             {
+                name: 'facebook',
+                link: 'https://www.facebook.com/profile.php?id=100095711435785',
+                color: '#0072b1',
+            },
+            {
                 name: 'whatsapp',
                 link: 'https://wa.me/+201279237596',
                 color: '#075e54',
