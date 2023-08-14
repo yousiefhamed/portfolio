@@ -939,6 +939,7 @@ footer.flex .projects.flex .end-line {
   text-align: center;
   line-height: 30px;
   width: 100%;
+  overflow: hidden;
   padding: 10px 0;
 }
 .footer.flex div.copyright span {

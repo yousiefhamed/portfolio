@@ -721,8 +721,9 @@ let handleAnimation = (animationElements) => {
     animationElements.map(x => {
         x.forEach(y => {
             const yClientRectTop = y.getBoundingClientRect().top;
+            const yClientRectBottom = y.getBoundingClientRect().bottom;
             const windowInnerHeight = window.innerHeight;
-            if (yClientRectTop > -200 && yClientRectTop < windowInnerHeight) {
+            if (yClientRectBottom > 0 && yClientRectTop < windowInnerHeight) {
                 y.classList.add('visible');
                 if (y.parentElement.classList.contains('animation-following')) {
                     let animationTimerFollowing = 0;
