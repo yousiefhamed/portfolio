@@ -27,7 +27,7 @@ const data = [{
                 id: 'callToAction',
                 name: 'Download my CV',
                 icon: 'resume',
-                link: 'https://drive.google.com/u/0/uc?id=1T4X_bipQv0JKJtLfHGZ0EByppFQnXypl&export=download'
+                link: 'https://drive.google.com/file/d/1a-zzLHVCnIoRq0DWFGtYX1uc2AImmt_l/view?usp=sharing'
             },
         ],
         mainCallToAction: 'Explore My Work',
@@ -62,7 +62,7 @@ const data = [{
             },
             {
                 name: 'resume',
-                link: 'https://drive.google.com/file/d/1T4X_bipQv0JKJtLfHGZ0EByppFQnXypl/view?usp=sharing',
+                link: 'https://drive.google.com/file/d/1a-zzLHVCnIoRq0DWFGtYX1uc2AImmt_l/view?usp=sharing',
                 color: '#132F3B',
             },
         ],
